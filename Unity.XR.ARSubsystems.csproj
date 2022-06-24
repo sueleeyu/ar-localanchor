@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4B4FF523-AE40-7F10-FAA1-611716D25049}</ProjectGuid>
+    <ProjectGuid>{EDC44934-97A4-6285-E404-677C8CD1465A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARSubsystems</AssemblyName>
@@ -767,7 +767,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{F54A57DD-1980-1461-8BE1-7819233BD237}</Project>
+      <Project>{5A0DD8BC-1C4E-1555-2B21-39381C73E6C1}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
   </ItemGroup>

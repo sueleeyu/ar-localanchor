@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6E6C2094-47F5-AE86-B11A-8D7D7DB9BD72}</ProjectGuid>
+    <ProjectGuid>{CE4F7B61-3DF5-47CE-BCAE-7866A9A11B2B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,23 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\App\Framework\BindableProperty\BindableProperty.cs" />
-    <Compile Include="Assets\App\Example\Scripts\UI\UI.cs" />
-    <Compile Include="Assets\App\Example\Scripts\UI\StarPanel.cs" />
-    <Compile Include="Assets\App\Example\Scripts\AR\CanvasTextManager.cs" />
+    <Compile Include="Assets\App\Framework\Logger.cs" />
+    <Compile Include="Assets\App\Example\IOC\DIPExample.cs" />
+    <Compile Include="Assets\App\Example\Scripts\CanvasTextManager.cs" />
     <Compile Include="Assets\App\Framework\Singleton\Singleton.cs" />
     <Compile Include="Assets\App\Framework\Command\ICommand.cs" />
-    <Compile Include="Assets\App\Example\Scripts\Event\GameStartEvent.cs" />
-    <Compile Include="Assets\App\Example\Scripts\Game\Game.cs" />
-    <Compile Include="Assets\App\Example\Scripts\Model\GameModel.cs" />
-    <Compile Include="Assets\App\Example\Scripts\Geospatial.cs" />
-    <Compile Include="Assets\App\Example\Scripts\AR\Colorizer.cs" />
+    <Compile Include="Assets\App\Example\Scripts\Colorizer.cs" />
     <Compile Include="Assets\App\Framework\Event\Event.cs" />
     <Compile Include="Assets\App\Example\Scripts\Logger.cs" />
     <Compile Include="Assets\App\Framework\IOC\IOCContainer.cs" />
-    <Compile Include="Assets\App\Example\Scripts\Command\GameStartCommand.cs" />
+    <Compile Include="Assets\App\Example\IOC\IOCExample.cs" />
     <Compile Include="Assets\App\Framework\Architecture\Architecture.cs" />
-    <Compile Include="Assets\App\Example\Scripts\AR\AnchorCreator.cs" />
-    <Compile Include="Assets\App\Framework\Logger.cs" />
+    <Compile Include="Assets\App\Example\Scripts\AnchorCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -655,95 +650,95 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARKit.csproj">
-      <Project>{0D7BA4B4-04E5-D8B1-C6E5-0EEE0008F632}</Project>
+      <Project>{26323AEB-077C-DF3B-229A-F96C98B73E99}</Project>
       <Name>Unity.XR.ARKit</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{79839D44-B59A-D998-FDC1-2AC2918C4811}</Project>
+      <Project>{BD85E2BC-47F4-7B5D-11C7-EA6383190A6F}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{D5F0CAEC-AE5B-A073-2F73-1EE930EEF3C6}</Project>
+      <Project>{DFD1B2B3-A3CF-541F-39B0-0B06391E2E1D}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{BFB29DF5-5C18-41CB-040E-5395F86FC00A}</Project>
+      <Project>{D394B741-B1DF-B289-E311-CF7C6ABDD7CB}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{31EBDB54-75E8-5115-E3A9-CB00F23B9C0B}</Project>
+      <Project>{ABC41B43-AB79-D75F-340E-6A3DE6EF230B}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{155F48EB-2072-940A-7F5F-31D4D527B361}</Project>
+      <Project>{2A9067A3-4141-70FE-A32D-00F4881C68DA}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{D8F4CE74-3BD8-D07E-BC2E-F6F47B5370C2}</Project>
+      <Project>{CACA020A-B11E-BDF0-4F23-356567270064}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.Editor.csproj">
-      <Project>{84DA636D-1BD6-1892-1602-9EB65FD7A5D9}</Project>
+      <Project>{B6570B48-CF34-CF96-1DBC-0CF49C70A567}</Project>
       <Name>Unity.XR.ARCore.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARKit.Editor.csproj">
-      <Project>{391B0662-4B98-88EB-AF5D-261328A8BAFE}</Project>
+      <Project>{ADD62699-D2F7-5AFC-03AA-D6A65DFBC768}</Project>
       <Name>Unity.XR.ARKit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{F54A57DD-1980-1461-8BE1-7819233BD237}</Project>
+      <Project>{5A0DD8BC-1C4E-1555-2B21-39381C73E6C1}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{414B02D3-A532-FEA2-B379-DF4B0C8DF8E4}</Project>
+      <Project>{6082087F-55FD-0152-085B-E18A63059616}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{8120F36C-E7AC-A356-2D47-E0AC4F2557AC}</Project>
+      <Project>{FABCAE93-6316-4F90-A1FC-FEF2AFB3F572}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{119601A4-31E7-CA7E-17B7-FA2F6F850AF4}</Project>
+      <Project>{4A7E9CBB-A8AE-DEDF-25A2-3C1784716324}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{F39B10CE-0C96-49F5-D7C3-57969477DAEA}</Project>
+      <Project>{0D17A9C5-0538-75E7-E3BE-9AD3A3BEB504}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{2483572F-42ED-CD87-6854-E603B2251991}</Project>
+      <Project>{9AEE9068-E7FB-4E43-E500-E20A20027877}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
-      <Project>{EAB9C656-FCDB-4498-B490-E4F8A3885B45}</Project>
+      <Project>{DB86CF9F-FE79-E847-A8F4-F275DA963FF5}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{12780C1B-E1CF-7D5F-9832-DF9D8755FB44}</Project>
+      <Project>{FAF94EDA-E595-D10F-7AD7-3E95042001DE}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{E49D726C-8FFE-BE69-D365-1806B4040F98}</Project>
+      <Project>{9BDD6C45-7874-0890-0AB4-85BBE6D3D4F2}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.csproj">
-      <Project>{0F66BE73-90C3-9D16-103C-537EBAAEC07A}</Project>
+      <Project>{16DB5F17-376F-7820-070B-953D753CFF51}</Project>
       <Name>Unity.XR.ARCore</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{4B4FF523-AE40-7F10-FAA1-611716D25049}</Project>
+      <Project>{EDC44934-97A4-6285-E404-677C8CD1465A}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
-      <Project>{8FB656E0-9A0A-C52D-FF6C-E4B315D864CB}</Project>
+      <Project>{F6CB71B2-2DBF-BB08-1BC9-328FCE8026D2}</Project>
       <Name>Unity.XR.ARFoundation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{5DDADB8F-0076-126D-4C9E-02001D4609B7}</Project>
+      <Project>{84AC1644-F50A-F4E1-964D-E30046812C3A}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{4610B941-7FA7-1CDA-4110-C26E640D81EE}</Project>
+      <Project>{DC54ACF0-7BBE-D634-52C7-A610E7212870}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
   </ItemGroup>

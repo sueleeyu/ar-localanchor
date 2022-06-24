@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0D7BA4B4-04E5-D8B1-C6E5-0EEE0008F632}</ProjectGuid>
+    <ProjectGuid>{26323AEB-077C-DF3B-229A-F96C98B73E99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARKit</AssemblyName>
@@ -715,11 +715,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{4B4FF523-AE40-7F10-FAA1-611716D25049}</Project>
+      <Project>{EDC44934-97A4-6285-E404-677C8CD1465A}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{E49D726C-8FFE-BE69-D365-1806B4040F98}</Project>
+      <Project>{9BDD6C45-7874-0890-0AB4-85BBE6D3D4F2}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
   </ItemGroup>

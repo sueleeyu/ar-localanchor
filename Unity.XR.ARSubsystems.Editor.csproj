@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EAB9C656-FCDB-4498-B490-E4F8A3885B45}</ProjectGuid>
+    <ProjectGuid>{DB86CF9F-FE79-E847-A8F4-F275DA963FF5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARSubsystems.Editor</AssemblyName>
@@ -684,19 +684,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{4B4FF523-AE40-7F10-FAA1-611716D25049}</Project>
+      <Project>{EDC44934-97A4-6285-E404-677C8CD1465A}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.005.csproj">
-      <Project>{E68024A0-BF76-81CE-C767-F6659FA51A1A}</Project>
+      <Project>{39FA42B6-D0D8-E69D-0A29-368BB6749439}</Project>
       <Name>Unity.InternalAPIEditorBridge.005</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{DDD69B0F-A70F-36A7-5E24-A219928A384E}</Project>
+      <Project>{6F65F9B3-9025-0595-13D0-1808738C514D}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{B117C32E-8D41-E6FC-F42E-2485F971B50E}</Project>
+      <Project>{4D13AF73-8149-6ACB-CDA6-1A43CA38E4DC}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
